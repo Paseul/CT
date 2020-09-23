@@ -32,7 +32,6 @@ int image_sum_value(unsigned char* image, int width, int height, int left, int t
             sum += image[width*y+x];
         }
     }
-
     return sum;
 }
 
